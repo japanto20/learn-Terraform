@@ -12,8 +12,8 @@ output "sample1" {
   value = var.sample1
 }
 
-variable "cli" {}
+variable "live" {}
 
-output "cli" {
-  value = var.cli
+output "live" {
+  value = var.live
 }
