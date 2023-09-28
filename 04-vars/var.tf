@@ -17,3 +17,5 @@ variable "live" {}
 output "live" {
   value = var.live
 }
+
+variable "input" {}
