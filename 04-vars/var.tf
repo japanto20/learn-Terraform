@@ -2,6 +2,6 @@ variable "sample" {
   default = "Hello World"
 }
 
-output "sample" {
+output "output" {
   value = var.sample
 }
