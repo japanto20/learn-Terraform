@@ -172,3 +172,7 @@ resource "aws_route53_record" "rabbitmq" {
   ttl     = "30"
   records = [aws_instance.rabbitmq.private_ip]
 }
+
+output "rabbitmq" {
+  value = "Public IP address  = ${aws_instance.rabbitmq.public_ip}"
+}
