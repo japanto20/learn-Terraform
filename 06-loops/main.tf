@@ -6,7 +6,7 @@ resource "null_resource" "nothing" {
   count = var.d1
 }
 
-/*
+
 variable "d2" {
   default = ["apple", "banana"]
 }
@@ -14,6 +14,7 @@ variable "d2" {
 resource "null_resource" "d2" {
   count = length(var.d2)
 }
+
 
 variable "d3" {
   default = {
@@ -35,4 +36,4 @@ resource "null_resource" "d3" {
 output "FRUITS" {
   value = [for i in var.d2 : upper(i)]
 
-}*/
+}
