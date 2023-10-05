@@ -1,4 +1,4 @@
-variable "sample" {
+/* variable "sample" {
   default = "Hello World"
 }
 
@@ -45,7 +45,7 @@ output "types" {
   value = "Variable sample5 - ${var.sample5}, First value in list - ${var.sample6[0]}, Boolean Value of Map = ${var.sample7["boolean"]}"
 
 
-  }
+  }*/
 
 
 variable "d1" {
